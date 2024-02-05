@@ -27,7 +27,7 @@ class bAccount{
 
 class ATM {
     private bAccount userAccount;
-    private Scanner scanner;
+    Scanner scanner;
 
     public ATM(bAccount userAccount) {
         this.userAccount = userAccount;
